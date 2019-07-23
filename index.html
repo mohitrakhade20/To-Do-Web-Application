@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" media="screen" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/css/bootstrap.min.css">
+      <link href="https://fonts.googleapis.com/css?family=Righteous&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/todoStyle.css">
+	<title>My online Todo list App</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	
+
+</head>
+
+<body>
+<!--    nav start-->
+    
+     <nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#"><i class="fa fa-snowflake-o fa-lg" aria-hidden="true"></i> </a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#"><i class="fa fa-tachometer" aria-hidden="true"></i>
+ To-Do Application <span class="sr-only">(current)</span></a></li>
+        <li><a href="https://in.linkedin.com/in/mohit-rakhade-a1b4b817a?trk=people-guest_profile-result-card_result-card_full-click"><i class="fa fa-user-circle-o" aria-hidden="true"></i> Profile</a></li>
+        <li><a href="https://github.com/mohitrakhade20"><i class="fa fa-cog fa-spin fa-lg fa-fw"></i>
+<span class="sr-only">Loading...</span>
+Our Works</a></li>
+        <li><a href="#"> <i class="fa fa-question-circle" aria-hidden="true"></i>
+Help</a></li>
+        
+      </ul>
+      
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#"><i class="fa fa-users" aria-hidden="true"></i>
+
+Contact Us</a></li>
+        <li><a href="#"><i class="fa fa-files-o" aria-hidden="true"></i> FAQ
+</a></li>
+        
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+
+<!--end-->
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+	<div class="container-fluid text-center">
+     
+        <h1 class="blink" >My First working TO-DO</h1> 
+
+        
+        <div class="jumbotron">
+        <input type="text" id="userinput" class="form-control" placeholder="What you need to do" onkeydown="return serchKeyPress(event);">
+        <button class="btn btn-success" id="add">Add a TODO</button>
+        <button class="btn btn-danger" id="removeall">REMOVE ALL TODO</button>
+        </div>
+        <ul id="list"></ul>
+        <i class="fa fa-refresh fa-spin fa-3x fa-fw"></i>
+<span class="sr-only">Loading...</span>
+
+        
+       <footer>
+     
+    
+      <p>&copy; Made with care by Mohit Rakhade <a href="">Terms</a> &middot; <a href="#">Condition</a></p>
+      
+       <ul id="ooo">  <a class="c" href="https://github.com/mohitrakhade20"><i class="fa fa-github" aria-hidden="true"></i> Join me on gitub &middot;  MOHIT RAKHADE </a><br>
+         <i class="fa fa-google-plus" aria-hidden="true"></i> Mail me at &middot; mohitrakhade20@gmail.com
+         <br>
+      <a class="c" href="https://in.linkedin.com/in/mohit-rakhade-a1b4b817a?trk=people-guest_profile-result-card_result-card_full-click">  <i class="fa fa-linkedin-square" aria-hidden="true"></i> Join me on &middot; Linked In</a>
+       
+   </ul>
+    </footer>  
+	</div>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/js/bootstrap.min.js"></script>
+   <script src="js/typed.js"></script>
+    <script src="js/todo.js"></script>
+    
+    
+   
+
+</body>
+
+</html>
